@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
 def hello
-  render html: "Bienvenu, Xav le pirate"
+  render html: "Bienvenue, Xav le pirate"
 end
 
 end
