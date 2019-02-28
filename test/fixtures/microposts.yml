@@ -1,0 +1,48 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+orange:
+  content: "The industrial society must be destroyed"
+  created_at: <%= 10.minutes.ago %>
+  user: michael
+
+T_manifesto:
+  content: "check out kaczynskis manifesto"
+  created_at: <%= 3.years.ago %>
+  user: michael
+
+soral_video:
+  content: "one of the greatest philosopher of the XXIth century"
+  created_at: <%= 2.hours.ago %>
+  user: michael
+
+most_recent:
+  content: "Writing a short test"
+  created_at: <%= Time.zone.now %>
+  user: michael
+
+<% 30.times do |n| %>
+micropost_<%= n %>:
+  content: <%= Faker::ChuckNorris.fact %>
+  created_at: <%= 42.days.ago %>
+  user: michael
+<% end %>
+
+ants:
+  content: "Oh, is that you want ? That's how you get ants"
+  created_at: <%= 2.years.ago %>
+  user: archer
+
+zone: 
+  content: "Danger zone !"
+  created_at: <%= 3.days.ago %>
+  user: archer
+
+tone:
+  content: "am sorry. Your words made sense, but your sarcastic tone did not"
+  created_at: <%= 10.minutes.ago %>
+  user: lana
+
+van:
+  content: "Dude, this van's, like, rolling probable cause"
+  created_at: <%= 4.hours.ago %>
+  user: lana
