@@ -5,7 +5,7 @@ orange:
   created_at: <%= 10.minutes.ago %>
   user: michael
 
-T_manifesto:
+t_manifesto:
   content: "check out kaczynskis manifesto"
   created_at: <%= 3.years.ago %>
   user: michael
